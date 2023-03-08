@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.67052128.css",
-    "main.js": "/static/js/main.70866c6b.js",
-    "static/js/787.23cc5e35.chunk.js": "/static/js/787.23cc5e35.chunk.js",
-    "static/media/wed1.jpg": "/static/media/wed1.b5ad2f74725c325ccf66.jpg",
-    "static/media/debut2.jpg": "/static/media/debut2.0fe91d038b4949dc24cf.jpg",
-    "static/media/debut1.jpg": "/static/media/debut1.91e6c6b0a0847fb2dc71.jpg",
-    "static/media/wed2.jpg": "/static/media/wed2.a54f05d498e1b3e1eee6.jpg",
-    "static/media/debut.jpg": "/static/media/debut.23cc46068162f34bfab8.jpg",
-    "static/media/wed3.jpg": "/static/media/wed3.9954bc296dffd597f641.jpg",
-    "static/media/logo.png": "/static/media/logo.5a6dab6c21e436ee4b8a.png",
-    "index.html": "/index.html",
-    "main.67052128.css.map": "/static/css/main.67052128.css.map",
-    "main.70866c6b.js.map": "/static/js/main.70866c6b.js.map",
-    "787.23cc5e35.chunk.js.map": "/static/js/787.23cc5e35.chunk.js.map"
+    "main.css": "/Tonette_Events/static/css/main.343274ac.css",
+    "main.js": "/Tonette_Events/static/js/main.4678a464.js",
+    "static/js/787.a1170668.chunk.js": "/Tonette_Events/static/js/787.a1170668.chunk.js",
+    "static/media/wed5.jpg": "/Tonette_Events/static/media/wed5.c63a3cb47a9baf1fc54c.jpg",
+    "static/media/wed6.jpg": "/Tonette_Events/static/media/wed6.3afa992a11b991f2744f.jpg",
+    "static/media/wed1.jpg": "/Tonette_Events/static/media/wed1.b5ad2f74725c325ccf66.jpg",
+    "static/media/debut2.jpg": "/Tonette_Events/static/media/debut2.0fe91d038b4949dc24cf.jpg",
+    "static/media/debut1.jpg": "/Tonette_Events/static/media/debut1.91e6c6b0a0847fb2dc71.jpg",
+    "static/media/wed2.jpg": "/Tonette_Events/static/media/wed2.a54f05d498e1b3e1eee6.jpg",
+    "static/media/debut.jpg": "/Tonette_Events/static/media/debut.23cc46068162f34bfab8.jpg",
+    "static/media/wed7.jpg": "/Tonette_Events/static/media/wed7.471a3239ed0b2205066c.jpg",
+    "static/media/wed3.jpg": "/Tonette_Events/static/media/wed3.9954bc296dffd597f641.jpg",
+    "static/media/tonette1.jpg": "/Tonette_Events/static/media/tonette1.364d85d0904ab33b4db4.jpg",
+    "static/media/debut3.jpg": "/Tonette_Events/static/media/debut3.52403aa92e62e3328837.jpg",
+    "static/media/wed4.jpg": "/Tonette_Events/static/media/wed4.3282dc2d4adfcbaadc2f.jpg",
+    "static/media/logo.png": "/Tonette_Events/static/media/logo.5a6dab6c21e436ee4b8a.png",
+    "index.html": "/Tonette_Events/index.html",
+    "main.343274ac.css.map": "/Tonette_Events/static/css/main.343274ac.css.map",
+    "main.4678a464.js.map": "/Tonette_Events/static/js/main.4678a464.js.map",
+    "787.a1170668.chunk.js.map": "/Tonette_Events/static/js/787.a1170668.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67052128.css",
-    "static/js/main.70866c6b.js"
+    "static/css/main.343274ac.css",
+    "static/js/main.4678a464.js"
   ]
 }
