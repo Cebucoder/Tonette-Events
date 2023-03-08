@@ -1,7 +1,7 @@
 {
   "name": "tonette-events",
   "version": "0.1.0",
-  "homepage": "https://cebucoder.github.io/Tonette_Events",
+  "homepage": "https://cebucoder.github.io/Tonette-Events",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
