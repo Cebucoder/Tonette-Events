@@ -7,7 +7,7 @@ const Faq = () => {
                 <ul>
                     <li>How Can We Start? | Initial Contact Phase</li>
 
-                    <p>Once you had decided to plan out for your big day and somehow, you got curious on our services, you may visit us at Something Borrowed Something New in front of the Ramos Public Market in Cebu. We will definitely answer your needs, ideas and questions. We have team members who are very much capable and eager to ease you of the burden and pressure of planning out for your big day. You may also call us at the following numbers:</p>
+                    <p>Once you had decided to plan out for your big day and somehow, you got curious on our services, you may visit us at Poblacion pardo at "<a href="https://goo.gl/maps/2GfiRHMxpEK1NfK29">Tonette Flowershop</a>". We will definitely answer your needs, ideas and questions. We have team members who are very much capable and eager to ease you of the burden and pressure of planning out for your big day. You may also call us at the following numbers:</p>
 
                     <p>Dito: +6300000000000 <br />Globe: +6300000000000</p>
                 

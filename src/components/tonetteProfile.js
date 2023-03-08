@@ -1,6 +1,15 @@
 import Tonette from '../images/tonette1.jpg';
 
 const Profile = () => {
+
+    // window.addEventListener('scroll', () => {
+    //     let back = document.getElementById("");
+    //     if(window.scrollY === 0){
+    //         activeClass = 'top';
+    //     }
+        
+    // });
+
     return ( 
         <div class="About-us-cont" id="aboutus">
            <span><h1>About Us</h1></span>
@@ -25,7 +34,10 @@ const Profile = () => {
 
             
            </div>
+
+
         </div>
+        
      );
 }
  

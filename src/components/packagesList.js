@@ -10,6 +10,8 @@ import Img8 from '../images/wed5.jpg';
 import Img9 from '../images/debut3.jpg';
 import Img10 from '../images/wed6.jpg';
 import Img11 from '../images/wed7.jpg';
+import Img12 from '../images/wed8.jpg';
+import Img13 from '../images/wed9.jpg';
 
 
 const ImageList = () => {
@@ -28,7 +30,7 @@ const ImageList = () => {
                 <Satclient link={"https://www.facebook.com/carmila.sanoy/posts/pfbid0S6EAcEuuw3MLRcPDoYtBCfWMwgHhj3JvKujUGVuppGA2bRFwrAvmSPLtA95BRDj7l"} client={"MARIANITA TURNS 18"} date={"25:02:2023"} image={Img9}></Satclient>
                 <Satclient link={"https://www.facebook.com/wendell.contento/posts/pfbid0cGWSffFmmhXwGEVFFbMDkzkS54vTTEXuNiTbK8XsNvBgZeUdz8jbNt8hevVjX9trl"} client={"VERLY & EDWIN"} date={"23:02:2023"} image={Img10}></Satclient>
                 <Satclient link={"https://www.facebook.com/dgreatmons143/posts/pfbid02rdztmCVZf4ioeHQtg79vDX9mhhYWzNwQ9wsxbinkc2eKH1CK2ncj65mBL4va6K4Hl"} client={"ANGELA & BRIAN"} date={"08:01:2023"} image={Img11}></Satclient>
-                <Satclient link={"https://www.facebook.com/tonette.solatorio/posts/pfbid02K1VEQnTNuNnGrr3LRCgV92iQST6VKjTFkqaJEyPNU42m4eRwFJUAGUJsXGH3Nk7Yl"} client={"LARA TURNS 18"} date={"27:12:2022"} image={Img6}></Satclient>
+                <Satclient link={"https://www.facebook.com/tonette.solatorio/posts/pfbid06HZDhpFVBSkSqWs2YQ57PdEBCocaApYc38PT9iCPvyuUCr1WvkmCJjNXzXeoCsuAl"} client={"DANNEIA & MARC "} date={"03:08:2023"} image={Img13}></Satclient>
             </div>
         </div>  
      );
