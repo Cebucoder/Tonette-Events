@@ -6,6 +6,10 @@ const Satclient = (details) => {
       // {/* <span><h1>Satisified Client's</h1></span> */}
       <div class="image-cont">
         <img src={details.image} alt="" />
+        <div class="overlay-details">
+          <a href={details.link}>{details.client}</a>
+          <small>{details.date}</small>
+        </div>
       </div>
     // </div>
    );

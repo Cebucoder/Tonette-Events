@@ -5,6 +5,8 @@ import ImageList from './components/packagesList';
 // import Imagelist from './components/packagesList';
 import Contact from './components/Contact';
 import PackageSet from './components/PackageSet';
+import Profile from './components/tonetteProfile';
+import Faq from './components/faq';
 
 const App = () => {
   return ( 
@@ -13,6 +15,8 @@ const App = () => {
       <Navigation></Navigation>
       <ImageList></ImageList>
       <PackageSet></PackageSet>
+      <Faq></Faq>
+      <Profile></Profile>
       <Contact></Contact>
     </div>
 

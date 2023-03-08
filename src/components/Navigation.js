@@ -1,11 +1,24 @@
 
+import '../css/min-style.css';
+
 const Navigation = () => {
+
+    function Opennav() {
+        let menu = document.getElementById("navbars");
+        // alert('Sorry Daniel cant get the function for now medyo nakakalito pag sa react hehehe!,I need to explore pa');
+        // menu = document.getElementById("open-navbar");
+        // console.log(menu);
+        menu.classList.toggle('show-menu');
+        // menu.classList.toggle("nav-logo-show");
+        // menu.classList.add("show-menu");
+      }
+
     return ( 
-        <div class="navbars">
+        <div class="navbars" id='navbars'>
             <div class="nav-logo">
                 <img src="./logo.png" alt="" />
             </div>
-            <div class="menu-icon" onClick="Opennav()">
+            <div class="menu-icon" onClick={Opennav}>
             <ion-icon name="menu-outline"></ion-icon>
             </div>
             <ul id="open-navbar">
@@ -19,13 +32,6 @@ const Navigation = () => {
         </div>
      );
 }
-const menu  = document.getElementById("open-navbar");
-function Opennav ()  {
-
-        
-        menu.classList.toggle("show-menu");
- }
-
 
  
 export default Navigation;

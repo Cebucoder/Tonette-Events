@@ -132,6 +132,7 @@ html{
     margin: 5px;
     border-radius: 5px;
     overflow: hidden;
+    position: relative;
 }
 .image-cont img{
     width: 100%;
@@ -139,14 +140,44 @@ html{
     object-fit: cover;
     transition: 0.6s;
 }
-.image-cont img:hover{
-    transform: scale(1.1);
+.overlay-details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+}
+.overlay-details a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.overlay-details:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.overlay-details a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
 
+.overlay-details:hover, .image-cont img:hover{
+    transform: scale(1.1);
 }
 .menu-icon{
     width: 80px;
     height: 80px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 20px;
     display: flex;
@@ -154,6 +185,16 @@ html{
     justify-content: center;
     font-size: 30px;
     display: none;
+}
+.menu-icon::after{
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    top: 0;
+    left: 0;
+    z-index: -2;
 }
 .nav-logo{
     width: 80px;
@@ -254,6 +295,13 @@ html{
 .Contact-cont button:hover{
     transform: translateY(-3px);
 }
+.address{
+    width: 100%;
+    margin-top: 30px;
+}
+.address iframe{
+    width: 100%;
+}
 .icons-cont{
     width: 100%;
     height: 50px;
@@ -297,6 +345,8 @@ html{
     font-size: 16px;
     padding-top: 5px;
     padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+
 }
 .accord-logo{
     width: 45px;
@@ -306,6 +356,7 @@ html{
 .accord-logo img{
     width: 100%;
 }
+
 .package-cont h1{
     padding: 10px 0;
     padding-bottom: 25px;
@@ -317,7 +368,126 @@ html{
     list-style: disc;
 }
 
+/* About us */
+.About-us-cont{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background: #f7f7f7;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 
+}
+.About-us-cont h1{
+    padding: 10px 0;
+    padding-bottom: 25px;
+    color: #333333;
+    font-family: 'Libre Baskerville', serif;
+
+    font-size: 30px;
+}
+.About-us-content{
+    display: flex;
+    justify-content: space-between;
+}
+.tonette-image{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #000;
+    margin-right: 10px;
+}
+.tonette-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+.tonette-sum{
+    width: 70%;
+    height: auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.tonette-sum a{
+    color: #000;
+}
+.tonette-sum p{
+    padding-top: 20px;
+}
+.tonette-details{
+    font-size: 13px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding: 30px 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* faq */
+.faq-cont{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+}
+.faq-cont span h1{
+    padding: 10px 0;
+    padding-bottom: 25px;
+    color: #333333;
+    font-family: 'Libre Baskerville', serif;
+
+    font-size: 30px;
+}
+.faq-content ul li{
+    list-style: decimal;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.527);
+}
+.faq-content ul h5{
+    font-size: 14px;
+    padding-top: 10px;
+}
+.faq-cont p{
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+/* /* ssucess and error mesage * */
+.success{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    background: #894552;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    position: fixed;
+    top: 30px;
+    left: 100px;
+    /* transform: translate(50%,50%); */
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    display: none;
+    transition: 0.1s;  
+}
+.show-success{
+    display: flex;
+    transition: 0.2s;
+
+}
+.Accord-header{
+    border: none;
+}
 
 /* responisve */
 @media only screen and (max-width: 827px) {
@@ -334,21 +504,41 @@ html{
     .menu-icon{
         display: flex;
         z-index: 1;
+        /* opacity: 1; */
     }
-    .navbars ul{
-        background: #f7f7f7;
+    .navbars{
         position: fixed;
         top: 0;
-        right: -100%;
+        left: -100%;
         width: 300px;
         height: 100vh;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         padding: 30px 0;
         transition: 0.5s;
+        margin-left: 0;
+        z-index: 999;
+        /* opacity: 0; */
+
+    }
+    .navbars ul{
+        width: 300px;
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        z-index: 999;
+        background: #f7f7f7;
+        padding-left: 0;
+        margin: 0;
+        border-right: 2px solid #894552;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
     .show-menu{
-        right: 0%;
+        left: 0%;
         transition: 0.3;
     }
     
@@ -363,11 +553,40 @@ html{
         transition: 0.3s;
     }
 }
+
+@media only screen and (max-width:591px){
+    .About-us-content{
+        flex-direction: column;
+        transition: 0.3s;
+        justify-content: center;
+    }
+    .tonette-sum{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .Contact-cont span h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .faq-cont span h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .package-cont h1{
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width:400px){
     .image-cont{
         max-width: 100%;
         width: 100%;
         height:250px;
+        transition: 0.3s;
+    }
+    .tonette-image{
+        width: 100%;
         transition: 0.3s;
     }
 }
