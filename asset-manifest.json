@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tonette-Events/static/css/main.343274ac.css",
-    "main.js": "/Tonette-Events/static/js/main.557a86cd.js",
+    "main.css": "/Tonette-Events/static/css/main.ee82828f.css",
+    "main.js": "/Tonette-Events/static/js/main.0959a6b5.js",
     "static/js/787.a1170668.chunk.js": "/Tonette-Events/static/js/787.a1170668.chunk.js",
     "static/media/wed5.jpg": "/Tonette-Events/static/media/wed5.c63a3cb47a9baf1fc54c.jpg",
     "static/media/wed6.jpg": "/Tonette-Events/static/media/wed6.3afa992a11b991f2744f.jpg",
@@ -19,12 +19,12 @@
     "static/media/wed9.jpg": "/Tonette-Events/static/media/wed9.69af9002b86c8924936d.jpg",
     "static/media/debut2.jpg": "/Tonette-Events/static/media/debut2.8e4de6ebfdcc2d782f1f.jpg",
     "index.html": "/Tonette-Events/index.html",
-    "main.343274ac.css.map": "/Tonette-Events/static/css/main.343274ac.css.map",
-    "main.557a86cd.js.map": "/Tonette-Events/static/js/main.557a86cd.js.map",
+    "main.ee82828f.css.map": "/Tonette-Events/static/css/main.ee82828f.css.map",
+    "main.0959a6b5.js.map": "/Tonette-Events/static/js/main.0959a6b5.js.map",
     "787.a1170668.chunk.js.map": "/Tonette-Events/static/js/787.a1170668.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.343274ac.css",
-    "static/js/main.557a86cd.js"
+    "static/css/main.ee82828f.css",
+    "static/js/main.0959a6b5.js"
   ]
 }
